@@ -6,5 +6,9 @@ namespace BestBuyBestPractices
 {
     interface IDepartmentRepo
     {
+        IEnumerable<Department> GetAllDepartments();
+        public void InsertDepartment(string newDepartmentName);
+
+
     }
 }
